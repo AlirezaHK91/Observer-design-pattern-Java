@@ -15,13 +15,13 @@ public class Celebrity implements Subject {
     }
 
     @Override
-    public void addSubscriber(Observer observer) {
-        observerList.add(observer);
+    public void addSubscriber(User user) {
+        observerList.add(user);
     }
 
     @Override
-    public void removeSubscriber(Observer observer) {
-        observerList.remove(observer);
+    public void removeSubscriber(User user) {
+        observerList.remove(user);
     }
 
     @Override
